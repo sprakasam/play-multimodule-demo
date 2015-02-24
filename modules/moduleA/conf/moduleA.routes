@@ -1,0 +1,3 @@
+GET        /moduleA/index            controllers.AppModuleA.index
+GET        /moduleA/splitUrl         controllers.AppModuleA.splitUrl
+GET        /moduleA/allConfig        controllers.AppModuleA.allConfigs

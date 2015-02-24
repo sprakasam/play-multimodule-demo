@@ -1,0 +1,8 @@
+GET        /index        controllers.AppRoot.index
+GET        /allConfig    controllers.AppRoot.allConfigs
+
+
+# delegate routes to the sub modules
+->         /             moduleA.Routes
+
+->         /             moduleB.Routes

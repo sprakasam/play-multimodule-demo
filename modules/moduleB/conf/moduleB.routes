@@ -1,0 +1,1 @@
+GET /moduleB/index  controllers.AppModuleB.index
