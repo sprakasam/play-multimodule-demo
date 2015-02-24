@@ -1,0 +1,1 @@
+SBT_OPTS="-XX:ReservedCodeCacheSize=100m -Xss2m -Xmn256m -Xms512m -Xmx6g -XX:+UseCompressedOops -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=3g -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n"
