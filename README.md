@@ -39,21 +39,29 @@ To run the play application,
 
 [play-multimodule-demo] $ run
 
+Using REST API client, try to hit the API endpoints on this play app (see below section "API Endpoints")
+
 To package the sub modules separately,
 
 [play-multimodule-demo] $ dist
 ```
 
+# Configuration
+TBD
+
+# Routes
+TBD
+
 # API Endpoints
 
-root
-GET /index
-GET /allConfig
+## root module endpoints
+* GET /index
+* GET /allConfig
 
-moduleA         
-GET /moduleA/index
-GET /moduleA/splitUrl
-GET /moduleA/allConfig
+## moduleA         
+* GET /moduleA/index
+* GET /moduleA/splitUrl?url="http://www.google.com"
+* GET /moduleA/allConfig
 
 moduleB         
-GET /moduleB/index
+* GET /moduleB/index
